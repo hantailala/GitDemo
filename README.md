@@ -27,4 +27,5 @@ GitHub 是一个托管 Git 项目的服务
   远程分支上的 commit 会复制到本地仓库。
   本地跟踪分支（例如，origin/master）移到指向最新的 commit。
   你可以将 git fetch 想象成 git pull 它的一半操作，而 git pull 的另一半是合并。
+  
 10.git merge origin master 合并
