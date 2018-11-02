@@ -48,7 +48,9 @@ GitHub 是一个托管 Git 项目的服务
 
 19.git merge <other-branch> 合并分支。
 
+20.git commit --amend 修改最后一个commit。
 
+21.
 
 
 
