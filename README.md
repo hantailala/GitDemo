@@ -46,6 +46,8 @@ GitHub 是一个托管 Git 项目的服务
 
 18.git checkout 分支名  切换分支。
 
+19.git merge <other-branch> 合并分支。
+
 
 
 
