@@ -32,9 +32,21 @@ GitHub 是一个托管 Git 项目的服务
 
 11.git show SHA 显示那次提交信息。
 
-12.git tag -a v1.0 带注释的标签，因为它们包含了大量的额外信息，包含创建者，日期，信息。
+12.git tag -a v1.0 -m 'xxxx' 带注释的标签，因为它们包含了大量的额外信息，包含创建者，日期，信息。 git tag -a v1.0 a87984向以前的提交打tag
 
 13.git tag -d v1.0.0 删除标签。
 
 14.git tag 验证标签是否已经添加了tag。
+
+15.git branch 列出仓库中的所有分支名称、创建新的分支、删除分支。
+
+16.git branch -d sidebar 删除分支
+
+17.git branch 名称  创建分支。
+
+18.git checkout 分支名  切换分支。
+
+
+
+
 
