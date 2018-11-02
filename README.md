@@ -9,7 +9,7 @@ GitHub 是一个托管 Git 项目的服务
 
 3.git remote add 用于创建一个origin简写名，指向github上的项目，运行git remote -v 会显示简写名和URL。
 
-4.git log --oneline --graph --decorate --all 显示commit日志，跟踪分支。
+4.git log --oneline --graph --decorate --all 显示commit日志，跟踪分支,分页，按Q退出。
 
 5.git add . 添加文件
 
@@ -28,4 +28,13 @@ GitHub 是一个托管 Git 项目的服务
   本地跟踪分支（例如，origin/master）移到指向最新的 commit。
   你可以将 git fetch 想象成 git pull 它的一半操作，而 git pull 的另一半是合并。
   
-10.git merge origin master 合并
+10.git merge origin master 合并。
+
+11.git show SHA 显示那次提交信息。
+
+12.git tag -a v1.0 带注释的标签，因为它们包含了大量的额外信息，包含创建者，日期，信息。
+
+13.git tag -d v1.0.0 删除标签。
+
+14.git tag 验证标签是否已经添加了tag。
+
