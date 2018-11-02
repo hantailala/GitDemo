@@ -50,7 +50,7 @@ GitHub 是一个托管 Git 项目的服务
 
 20.git commit --amend 修改最后一个commit。
 
-21.
+21.git revert <SHA-of-commit-to-revert> 命令用于还原之前创建的 commit
 
-
+22.git reset <reference-to-commit> 将 HEAD 和当前分支指针移到目标 commit，清除 commit，将 commit 的更改移到暂存区，取消暂存 commit 的更改
 
