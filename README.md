@@ -54,3 +54,4 @@ GitHub 是一个托管 Git 项目的服务
 
 22.git reset <reference-to-commit> 将 HEAD 和当前分支指针移到目标 commit，清除 commit，将 commit 的更改移到暂存区，取消暂存 commit 的更改
 
+参考视频：https://classroom.udacity.com/courses/ud123
